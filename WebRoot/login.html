@@ -1,0 +1,29 @@
+<html>
+<style >
+#login{
+position:absolute;
+	top:310px;
+	left:550px;
+	backgroud-color:blue;
+	<!--background-image: url(login.png);-->
+}
+#body{
+background-color: rgb(0,120,255);
+<!--background-image: url(login.png);-->
+}	
+h1 {font-size:3.75em;}
+</style>
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body ID="body">
+<h1 align="center">欢迎登录人事管理系统</h1>
+<div id="login">
+<form action="login.jsp" method="post">
+  <p>user name: <input type="text" name="username" required="required" /></p>
+  <p>Password: <input type="password" name="password" required="required" /></p>
+  <p align="center"><input type="submit"  value="login" /></p>
+</form>
+</div>
+</body>
+</html>
